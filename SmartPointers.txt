@@ -1,1 +1,9 @@
+Smart pointer is a wrapper class over a pointer and it can automatically free , destroy the objects unlike the raw conventional
+pointers.
 
+Types of Smart pointers:
+========================
+        1.Unique pointer
+        2.Shared pointer
+        3.Weak pointer
+        4.Auto pointer (Deprecated in c++11)
