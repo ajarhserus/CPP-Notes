@@ -35,8 +35,7 @@ int main(){
         bClass=std::move(aClass);//works because ownership transferred;
 
      //  aClass->print(); // Error. no more accessible
-        bClass->print();
-
+       
         cout<<aClass;
         cout<<bClass;
 

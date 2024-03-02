@@ -8,3 +8,6 @@ Types of Smart pointers:
         3.Weak pointer
         4.Auto pointer (Deprecated in c++11)
 
+
+Inp
+

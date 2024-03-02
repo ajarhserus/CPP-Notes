@@ -32,7 +32,7 @@ int main(){
     shared_ptr<A> a(new A(10));
     shared_ptr<A> b(a);
     shared_ptr<A> c;
-    c=b;
+
 
     a->print(); //prints 10
     b->print(); //prints 10
