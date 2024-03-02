@@ -22,13 +22,11 @@ class A{
         cout << this->data << "\n";
       }
 
+      ~A(){
+        cout<<"destructor ";
+      }
+
 };
-
-
-
-
-
-
 int main(){
 
     shared_ptr<A> a(new A(10));
@@ -45,11 +43,13 @@ int main(){
     a->print(); // prints 50
     b->print();//prints 50
     c->print();//prints 50
-
+   // a.reset();
     c->data=150;
      a->print(); // prints 150
     b->print();//prints 150
     c->print();//prints 150
+    cout << "\n" <<c.use_count();
+
 
 
     return 0;
