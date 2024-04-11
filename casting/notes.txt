@@ -1,0 +1,14 @@
+Types of Casting:
+=================
+    1. Static Cast
+    2. Dynamic Cast
+    3. Reinterpret Cast
+
+
+
+Dynamic Cast:
+==============
+    *Used for safe down casting.
+    *primarily used in polmorphic class hierarchies.
+    *if the types are not compatible , it returns nullptr or bad_cast exception.
+    *if the types are compatible , it returns a valid pointer.
